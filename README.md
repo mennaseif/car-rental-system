@@ -21,6 +21,7 @@ Each rental is associated with a Car and a Customer.
 Rental fields:
 rentalDate: Date when the car was rented.
 returnDate: Date when the car was returned (if applicable).
+
 🔍 Special Features
 Ensure a car cannot be rented if its status is marked as 'rented' until it’s returned.
 Query options to filter cars:
@@ -28,6 +29,7 @@ Query options to filter cars:
 🛑 Available cars of a specific model.
 🚙 Cars that are rented or of a specific model.
 ✅ Available cars of specific models or rented cars of a specific model.
+
 🛠️ API Endpoints
 🧑‍💼 User APIs
 Signup: POST /users/signup - Register a new user.
@@ -53,16 +55,18 @@ Get cars by model (Honda or Toyota): GET /cars?model=Honda&model=Toyota
 Get available cars by model: GET /cars?model=SomeModel&status=available
 Get rented or specific model cars: GET /cars?model=SomeModel&status=rented
 Get available cars of specific models or rented cars of a model: GET /cars?models=ModelA,ModelB&status=available
+
 🛠️ Technologies Used
 Node.js: Backend framework.
 Express.js: Web framework for building REST APIs.
 MongoDB: Database for storing data, using Mongoose for object modeling.
 Postman: For API documentation and testing.
+
 🚀 How to Run
 Clone the repository:
 bash
 Copy code
-git clone https://github.com/your-repository.git
+git clone https://github.com/mennaseif/car-rental-system.git
 Install dependencies:
 bash
 Copy code
@@ -73,6 +77,7 @@ bash
 Copy code
 npm start
 Test the APIs using Postman or any other API client.
+
 🔮 Future Enhancements
 🔍 Add search functionality for cars.
 🛡️ Implement additional user roles (e.g., Admin).
