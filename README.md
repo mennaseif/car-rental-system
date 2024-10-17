@@ -64,17 +64,11 @@ Postman: For API documentation and testing.
 
 🚀 How to Run
 Clone the repository:
-bash
-Copy code
 git clone https://github.com/mennaseif/car-rental-system.git
 Install dependencies:
-bash
-Copy code
 npm install
 Set up environment variables (MongoDB URI, JWT secret, etc.) in a .env file.
 Start the server:
-bash
-Copy code
 npm start
 Test the APIs using Postman or any other API client.
 
